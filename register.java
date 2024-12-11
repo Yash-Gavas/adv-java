@@ -48,7 +48,7 @@ public class yash extends HttpServlet {
         
         // Check if the password and repassword match
         if (!password.equals(repassword)) {
-            response.sendRedirect("LoginPassword.html");  // Redirect back to the form if passwords don't match
+            response.sendRedirect("NewFile.html");  // Redirect back to the form if passwords don't match
             return;
         }
         
